@@ -51,7 +51,7 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-75 z-50 flex flex-col">
+    <div className="fixed inset-0 bg-black bg-opacity-75 a-50 flex flex-col">
       {/* Header */}
       <div className="bg-white px-4 py-2 flex items-center justify-between">
         <h3 className="font-medium truncate">{imageName}</h3>
