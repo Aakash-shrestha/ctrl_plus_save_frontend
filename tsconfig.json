@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx", // Use "react" for React 16 or older
+    "types": ["react", "react-dom"], // Ensure React types are included
+    "lib": ["dom", "esnext"], // Include DOM and ESNext libraries
+    "skipLibCheck": true // Skip type checking for libraries
+  }
+  
+}
