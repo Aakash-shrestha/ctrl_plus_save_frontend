@@ -652,7 +652,7 @@ const App: React.FC = () => {
                 }}
               ></div>
             </div>
-            <button className="mt-3 text-sm text-blue-600 hover:text-blue-800 font-medium">
+            <button onClick = {() => setShowPremiumPopup(true)} className="mt-3 text-sm text-blue-600 hover:text-blue-800 font-medium">
               Get more storage
             </button>
           </div>
